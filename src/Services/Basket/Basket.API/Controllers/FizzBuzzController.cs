@@ -13,17 +13,17 @@ namespace Basket.API.Controllers
             var result = "";
             for (int i = 1; i <= num; i++)
             {
-                if (i % 15 == 0)
-                {
-                    result = result + "FizzBuzz";
-                }
-                else if (i % 3 == 0)
+                if (i % 3 == 0)
                 {
                     result = result + "Fizz";
                 }
                 else if(i % 5 == 0)
                 {
                     result = result + "Buzz";
+                }
+                else if (i % 15 == 0)
+                {
+                    result = result + "FizzBuzz";
                 }
                 else
                 {
