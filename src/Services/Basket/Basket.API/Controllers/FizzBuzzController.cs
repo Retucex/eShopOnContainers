@@ -11,7 +11,7 @@ namespace Basket.API.Controllers
         public async Task<string> FizzBuzz(int num)
         {
             var result = "";
-            for (int i = 1; i <= num; i++)
+            for (int i = 0; i < num; i++)
             {
                 if (i % 3 == 0)
                 {
