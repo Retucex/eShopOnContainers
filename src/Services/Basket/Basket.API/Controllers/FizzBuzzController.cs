@@ -10,7 +10,7 @@ namespace Basket.API.Controllers
         [HttpGet("{num}")]
         public async Task<string> FizzBuzz(int num)
         {
-            var result = string.Empty;
+            var result = "";
             for (int i = 1; i <= num; i++)
             {
                 if (i % 15 == 0)
