@@ -25,7 +25,8 @@ namespace Basket.API.Controllers
             // opt: result should be string.Empty for better clarity.
             var result = "";
             // int -> var (consistency)
-            for (int i = 1; i <= num; i++)
+            // should be i = 1; i <= num (or else, starts at 0 and doesn't finish)
+            for (int i = 0; i < num; i++)
             {
                 /*********
                  * Logic can be simplified. A flag can be introduced to track if value was divisible by 3 or 5
