@@ -24,6 +24,7 @@ namespace Basket.API.Controllers
             // result should be a StringBuilder for better performance
             // opt: result should be string.Empty for better clarity.
             var result = "";
+            // int -> var (consistency)
             for (int i = 1; i <= num; i++)
             {
                 /*********
